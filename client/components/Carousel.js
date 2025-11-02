@@ -5,10 +5,10 @@ export default function Carousel() {
     <MDBCarousel showControls showIndicators>
       <MDBCarouselItem itemId={1}>
         <img
-          src="https://media.licdn.com/dms/image/D5622AQFyMXIR9dkNYw/feedshare-shrink_2048_1536/0/1711043766361?e=1722470400&v=beta&t=dfCXX025obsD-X63BDzp0PF3gNPqkkwwPNIRVRi5L-k"
-          className="d-block h-10 w-100"
+          src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2940"
+          className="d-block w-100 h-10"
           alt="..."
-          style={{objectFit: "cover", height: "572px"}}
+          style={{ objectFit: 'cover', height: '572px' }}
         />
         <MDBCarouselCaption>
           <h5>Events & Activities</h5>
@@ -20,7 +20,7 @@ export default function Carousel() {
           src="https://plus.unsplash.com/premium_photo-1663054914576-252d1479383e?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           className="d-block w-100"
           alt="..."
-          style={{objectFit: "cover", height: "572px"}}
+          style={{ objectFit: 'cover', height: '572px' }}
         />
 
         <MDBCarouselCaption>
@@ -33,7 +33,7 @@ export default function Carousel() {
           src="https://images.unsplash.com/photo-1523908511403-7fc7b25592f4?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           className="d-block w-100"
           alt="..."
-          style={{objectFit: "cover", height: "572px"}}
+          style={{ objectFit: 'cover', height: '572px' }}
         />
         <MDBCarouselCaption>
           <h5>Networking</h5>
