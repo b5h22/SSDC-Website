@@ -15,7 +15,7 @@ export default function Events({ event }) {
   const [events, setEvents] = useState([])
   const [filter, setFilter] = useState('All')
   const [filterText, setFilterText] = useState('Filter by')
-  const [visibleEvents, setVisibleEvents] = useState(4)
+  const [visibleEvents, setVisibleEvents] = useState(6)
 
   useEffect(() => {
     fetch('/api/event')
@@ -27,7 +27,7 @@ export default function Events({ event }) {
   const handleFilterChange = (filterValue, filterLabel) => {
     setFilter(filterValue)
     setFilterText(filterLabel)
-    setVisibleEvents(4)
+    setVisibleEvents(6)
   }
 
   const filteredEvents = events.filter((event) => {
@@ -51,7 +51,7 @@ export default function Events({ event }) {
   filteredEvents.sort((a, b) => new Date(a.date) - new Date(b.date))
 
   const loadMoreEvents = () => {
-    setVisibleEvents((prevVisibleEvents) => prevVisibleEvents + 4)
+    setVisibleEvents((prevVisibleEvents) => prevVisibleEvents + 6)
   }
 
   return (
